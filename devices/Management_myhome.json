@@ -1,0 +1,220 @@
+{
+    "Management": {
+        "name": "Commande de management",
+		"configuration": {
+			"version": "1.0",
+			"update": "Ajout release et versionning"
+		},
+        "subtype": {
+            "00": {
+                "name": "Defaut",
+                "commands": [
+                    {
+                        "name": "Reset du Dongle",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*22*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Créer un Réseau Zigbee",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*30*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Fermer le Réseau Zigbee",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*31*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Ouvrir le Réseau Zigbee",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*32*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Joindre le Réseau Zigbee",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*33*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Quitter le Réseau Zigbee",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*34*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Pret à Recevoir",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*60*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Scan",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*65*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Superviseur",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*13*66*##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Mac Address du dongle",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13**12##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Version Logiciel",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13*#WHERE##IDUNIT##9*16##*#*1##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Version Matériel",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13*#WHERE##IDUNIT##9*17##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Who/Fonction implémentée",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13*#WHERE##IDUNIT##9*26##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Information sur l'équipement",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13**66*#VALUE###",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Nbr d'equipement dans le réseau Zigbee",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13**67##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Identifier un équipement",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13*#WHERE##IDUNIT##9*70##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					},
+					{
+                        "name": "Canal utilisé par le Réseau Zigbee",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*#13**71##",
+						"eventOnly": 1,
+						"configuration": {
+							"unit": "0",
+							"where": "Unicast"
+                        }
+					}
+                ]
+            }
+        }
+    }
+}
