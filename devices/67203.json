@@ -1,7 +1,8 @@
 {
     "67203": {
         "name": "Inter Simple à voyant",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",
 							"nbunit": "2",

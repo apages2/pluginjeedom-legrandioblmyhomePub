@@ -1,6 +1,7 @@
 {
     "Light": {
         "name": "Commande de lumiere",
+		"techno": "MYHOME",
 		"configuration": {
 			"version": "1.2",
 			"update": "Add Family",

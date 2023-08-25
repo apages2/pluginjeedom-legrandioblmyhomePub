@@ -1,7 +1,8 @@
 {
     "84522": {
         "name": "Inter Auto 1000W Sagane",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.0",
 							"update": "Creation",
 							"nbunit": "3",

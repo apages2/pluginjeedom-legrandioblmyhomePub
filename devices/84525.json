@@ -1,6 +1,7 @@
 {
     "84525": {
         "name": "Interscenario Emetteur CPL Sagane",
+		"techno": "IOBL",
 		"configuration": {
                             "version": "1.0",
 							"update": "Creation",

@@ -1,6 +1,7 @@
 {
     "77023": {
         "name": "Inter Centralisé Volet Roulant Mosaic (orientation lamelles)",
+		"techno": "IOBL",
 		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",

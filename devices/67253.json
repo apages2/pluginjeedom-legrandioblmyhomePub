@@ -1,7 +1,8 @@
 {
     "67253": {
         "name": "Inter Centralisé Volet Roulant",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.4",
 							"update": "Suppression des commandes local",
 							"nbunit": "1",

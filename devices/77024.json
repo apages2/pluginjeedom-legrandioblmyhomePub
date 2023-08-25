@@ -1,7 +1,8 @@
 {
     "77024": {
         "name": "Inter Centralisé Volet Roulant Mosaic",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",
 							"nbunit": "1",

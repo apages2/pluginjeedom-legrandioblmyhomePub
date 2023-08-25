@@ -1,7 +1,8 @@
 {
     "69503": {
         "name": "Interrupteur récepteur 1 circuit 2500W Plexo MyHOME Play",
-        "configuration": {
+        "techno": "MYHOME",
+		"configuration": {
                             "version": "1.0",
 							"update": "Creation",
 							"nbunit" : "1",

@@ -1,6 +1,7 @@
 {
     "88203": {
         "name": "Prisinter Variateur 500W",
+		"techno": "IOBL",
 		"configuration": {
 							"version": "1.3",
 							"update": "Ajout du statut numérique",

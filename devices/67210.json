@@ -1,7 +1,8 @@
 {
     "67210": {
         "name": "Inter Variateur 300W",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",
 							"nbunit": "4",

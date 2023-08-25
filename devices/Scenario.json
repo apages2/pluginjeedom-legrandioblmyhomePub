@@ -1,6 +1,7 @@
 {
 	"Scenario": {
 		"name": "Commande de scenario",
+		"techno": "MYHOME",
 		"configuration": {
 			"version": "1.0",
 			"update": "Ajout Generic Type + release et versionning"

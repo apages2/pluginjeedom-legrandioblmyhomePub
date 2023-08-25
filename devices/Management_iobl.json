@@ -1,6 +1,7 @@
 {
-    "Management": {
+    "Management iobl": {
         "name": "commande de creation",
+		"techno": "IOBL",
 		"configuration": {
 			"version": "1.2",
 			"update": "Ajout Generic Type + release et versionning"

@@ -1,6 +1,7 @@
 {
     "67449": {
         "name": "Programmateur d'ambiance",
+		"techno": "IOBL",
 		"configuration": {
                             "version": "1.4",
 							"update": "Modification des generic type + commande d'arret",

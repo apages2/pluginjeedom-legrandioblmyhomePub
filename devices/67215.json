@@ -1,7 +1,8 @@
 {
     "67215": {
         "name": "Inter Auto 1000W",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.4",
 							"update": "Ajout de la commande OFF",
 							"nbunit": "3",

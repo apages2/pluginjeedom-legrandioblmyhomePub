@@ -1,7 +1,8 @@
 {
     "88337": {
         "name": "Prise mobile 1 circuit 2500 W MyHOME Play",
-        "configuration": {
+        "techno": "MYHOME",
+		"configuration": {
  	        "version": "1.4",
 		"update": "Add Family",
 		"family": "LIGHTING",

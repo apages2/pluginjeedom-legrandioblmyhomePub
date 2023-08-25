@@ -1,6 +1,7 @@
 {
 	"Shutter": {
 		"name": "Commande de Volet Roulant",
+		"techno": "MYHOME",
 		"configuration": {
 			"version": "1.6",
 			"update": "Change By SEKI",

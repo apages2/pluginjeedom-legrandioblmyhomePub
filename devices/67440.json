@@ -1,6 +1,7 @@
 {
     "67440": {
         "name": "Thermostat d'Ambiance",
+		"techno": "IOBL",
 		"configuration": {
                             "version": "1.0",
 							"update": "Creation",

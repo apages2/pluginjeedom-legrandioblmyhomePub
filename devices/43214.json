@@ -1,6 +1,7 @@
 {
     "43214": {
         "name": "Système d’Alarme Intrusion Multiservice RF",
+		"techno": "IOBL",
 		"configuration": {
 							"version": "1.2",
 							"update": "Ajout du statut numérique",

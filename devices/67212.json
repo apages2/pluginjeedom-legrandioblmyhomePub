@@ -1,7 +1,8 @@
 {
     "67212": {
         "name": "Inter Variateur 300W à voyant",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numerique",
 							"nbunit": "4",

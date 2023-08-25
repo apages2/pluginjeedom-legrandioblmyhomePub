@@ -1,6 +1,7 @@
 {
-    "Management": {
+    "Management myhome": {
         "name": "Commande de management",
+		"techno": "MYHOME",
 		"configuration": {
 			"version": "1.0",
 			"update": "Ajout release et versionning"

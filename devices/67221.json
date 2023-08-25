@@ -1,7 +1,8 @@
 {
     "67221": {
         "name": "Interrupteur récepteur 1 circuit ON/OFF Céliane MyHOME Play",
-        "configuration": {
+        "techno": "MYHOME",
+		"configuration": {
                             "version": "1.0",
 							"update": "Creation",
 							"nbunit" : "1",

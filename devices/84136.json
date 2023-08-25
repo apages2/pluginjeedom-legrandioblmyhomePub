@@ -1,7 +1,8 @@
 {
     "84136": {
         "name": "Inter Variateur 300W Sagane",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.0",
 							"update": "Creation",
 							"nbunit": "4",

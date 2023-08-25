@@ -1,6 +1,7 @@
 {
     "03809": {
         "name": "Gestionnaire d'Energie",
+		"techno": "IOBL",
 		"configuration": {
 							"version": "1.3",
 							"update": "Changement du type par défaut des index HP et HC",

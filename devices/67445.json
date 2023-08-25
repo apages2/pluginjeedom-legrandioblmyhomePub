@@ -1,6 +1,7 @@
 {
     "67445": {
         "name": "Sortie de Cable CPL",
+		"techno": "IOBL",
 		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",

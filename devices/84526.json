@@ -1,6 +1,7 @@
 {
     "84526": {
         "name": "Inter Individuel Volet Roulant Sagane",
+		"techno": "IOBL",
 		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",

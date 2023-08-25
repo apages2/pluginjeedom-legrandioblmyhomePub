@@ -1,7 +1,8 @@
 {
     "67232": {
         "name": "Inter Variateur 600W Radio",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",
 							"nbunit": "3",

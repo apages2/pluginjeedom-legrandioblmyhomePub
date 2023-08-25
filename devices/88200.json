@@ -1,6 +1,7 @@
 {
     "88200": {
         "name": "Telecommande IR",
+		"techno": "IOBL",
 		"configuration": {
                             "version": "1.4",
 							"update": "Creation du template",

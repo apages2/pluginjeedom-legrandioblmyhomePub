@@ -1,7 +1,8 @@
 {
     "67254": {
         "name": "Inter Centralise Quadruple Volet Roulant",
-        "configuration": {
+        "techno": "IOBL",
+		"configuration": {
                             "version": "1.3",
 							"update": "Ajout du statut numérique",
 							"nbunit": "4",
