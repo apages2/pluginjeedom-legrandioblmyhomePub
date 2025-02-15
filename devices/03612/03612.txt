@@ -1,0 +1,631 @@
+{
+    "03612": {
+        "name": "Interscenario Emetteur CPL",
+		"configuration": {
+                            "version": "1.3",
+							"update": "Ajout du statut numérique",
+							"nbunit": "8",
+							"036121": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "I",
+								"btn": "Scenario I",
+								"unit": "1",
+								"unit_status": "1",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								},
+							"036122": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "II",
+								"btn": "Scenario II",
+								"unit": "2",
+								"unit_status": "2",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								},
+							"036123": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "III",
+								"btn": "Scenario III",
+								"unit": "3",
+								"unit_status": "3",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								},
+							"036124": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "IIII",
+								"btn": "Scenario IIII",
+								"unit": "4",
+								"unit_status": "4",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								},
+								"036125": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "V",
+								"btn": "Scenario V",
+								"unit": "5",
+								"unit_status": "5",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								},
+							"036126": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "VI",
+								"btn": "Scenario VI",
+								"unit": "6",
+								"unit_status": "6",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								},
+							"036127": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "VII",
+								"btn": "Scenario VII",
+								"unit": "7",
+								"unit_status": "7",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								},
+							"036128": {
+								"ref_legrand": "03612",
+								"family": "SCENE",
+								"nom_interne": "VIII",
+								"btn": "Scenario VIII",
+								"unit": "8",
+								"unit_status": "8",
+								"possibility": "COMMAND",
+								"function_code": "53",
+								"unit_code": "3",
+								"server_opt": "NULL",
+								"commentaire": "COMMAND=Start et Stop Action Scenario"
+								}
+                        },				
+        "subtype": {
+            "00": {
+                "name": "Defaut",
+                "commands": [
+					{
+                        "name": "Status1",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status1",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "1"
+                        }			
+					},
+					{
+                        "name": "Status Numerique1",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum1",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "1"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 1",
+                        "type": "action",
+						"subtype": "slider",
+                        "isVisible": 1,
+						"logicalId": "*14*0###slider#*#WHERE##IDUNIT##MEDIA###",
+						"configuration": {
+							"whatdim": {
+								"what": "0",
+								"dim": "NULL",
+								"nom": "Who14-OVERRIDE_FOR_TIME"
+							},	
+							"unit": "1",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "LIGHT_SLIDER"
+						}
+                    },
+                    {
+                        "name": "Status2",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status2",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "2"
+                        }			
+					},
+					{
+                        "name": "Status Numerique2",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum2",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "2"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 2",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*25*#WHAT#*#WHERE##IDUNIT###",
+						"configuration": {
+							"whatdim": {
+								"what": "11",
+								"dim": "NULL",
+								"nom": "Who25-Action"
+							},	
+							"unit": "2",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "MODE_SET_STATE"
+						}
+                    },
+					{
+                        "name": "Status3",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status3",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "3"
+                        }				
+					},
+					{
+                        "name": "Status Numerique3",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum3",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "3"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+                    {
+                        "name": "Scenario 3",
+                        "type": "action",
+						"subtype": "slider",
+                        "isVisible": 1,
+						"logicalId": "*14*0###slider#*#WHERE##IDUNIT##MEDIA###",
+						"configuration": {
+							"whatdim": {
+								"what": "0",
+								"dim": "NULL",
+								"nom": "Who14-OVERRIDE_FOR_TIME"
+							},	
+							"unit": "3",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "LIGHT_SLIDER"
+						}
+                    },
+					{
+                        "name": "Status4",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status4",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "4"
+                        }				
+					},
+					{
+                        "name": "Status Numerique4",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum4",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "4"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 4",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*25*#WHAT#*#WHERE##IDUNIT###",
+						"configuration": {
+							"whatdim": {
+								"what": "11",
+								"dim": "NULL",
+								"nom": "Who25-Action"
+							},	
+							"unit": "4",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "MODE_SET_STATE"
+						}
+                    },
+					{
+                        "name": "Status5",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status5",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "5"
+                        }				
+					},
+					{
+                        "name": "Status Numerique5",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum5",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "5"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 5",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*25*#WHAT#*#WHERE##IDUNIT###",
+						"configuration": {
+							"whatdim": {
+								"what": "11",
+								"dim": "NULL",
+								"nom": "Who25-Action"
+							},	
+							"unit": "5",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "MODE_SET_STATE"
+						}
+					},
+					{
+                        "name": "Status6",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status6",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "6"
+                        }				
+					},
+					{
+                        "name": "Status Numerique6",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum6",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "6"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 6",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*25*#WHAT#*#WHERE##IDUNIT###",
+						"configuration": {
+							"whatdim": {
+								"what": "11",
+								"dim": "NULL",
+								"nom": "Who25-Action"
+							},	
+							"unit": "6",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "MODE_SET_STATE"
+						}
+					},
+						{
+                        "name": "Status7",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status7",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "7"
+                        }				
+					},
+					{
+                        "name": "Status Numerique7",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum7",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "7"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 7",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*25*#WHAT#*#WHERE##IDUNIT###",
+						"configuration": {
+							"whatdim": {
+								"what": "11",
+								"dim": "NULL",
+								"nom": "Who25-Action"
+							},	
+							"unit": "7",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "MODE_SET_STATE"
+						}
+					},
+					{
+                        "name": "Status8",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 1,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status8",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "8"
+                        }				
+					},
+					{
+                        "name": "Status Numerique8",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum8",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "8"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 8",
+                        "type": "action",
+						"subtype": "other",
+                        "isVisible": 1,
+						"logicalId": "*25*#WHAT#*#WHERE##IDUNIT###",
+						"configuration": {
+							"whatdim": {
+								"what": "11",
+								"dim": "NULL",
+								"nom": "Who25-Action"
+							},	
+							"unit": "8",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "MODE_SET_STATE"
+						}
+					},
+					{
+                        "name": "Status9",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status9",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "1"
+                        }				
+					},
+					{
+                        "name": "Status Numerique9",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum9",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "1"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 9",
+                        "type": "action",
+						"subtype": "slider",
+                        "isVisible": 1,
+						"logicalId": "*14*1##slider#*#WHERE##IDUNIT##MEDIA###",
+						"configuration": {
+							"whatdim": {
+								"what": "1",
+								"dim": "NULL",
+								"nom": "Who14-END_OF_OVERRIDE"
+							},	
+							"unit": "1",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "LIGHT_SLIDER"
+						}
+					},
+					{
+                        "name": "Status10",
+                        "type": "info",
+						"subtype": "string",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"eventOnly": 1,
+						"logicalId": "status10",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "3"
+                        }				
+					},
+					{
+                        "name": "Status Numerique10",
+                        "type": "info",
+						"subtype": "numeric",
+                        "isVisible": 0,
+						"isHistorized": 0,
+                        "unite": "",
+						"logicalId": "statusnum10",	
+						"configuration": {
+                            "returnStateValue": "",
+                            "returnStateTime": "",
+							"unit": "3"
+                        },
+						"display": {
+							"generic_type": "MODE_STATE"
+						}			
+					},
+					{
+                        "name": "Scenario 10",
+                        "type": "action",
+						"subtype": "slider",
+                        "isVisible": 1,
+						"logicalId": "*14*1##slider#*#WHERE##IDUNIT##MEDIA###",
+						"configuration": {
+							"whatdim": {
+								"what": "1",
+								"dim": "NULL",
+								"nom": "Who14-END_OF_OVERRIDE"
+							},	
+							"unit": "3",
+							"where": "Multicast"
+                        },
+						"display": {
+							"generic_type": "MODE_SET_STATE"
+						}
+					}
+                ]
+            }
+        }
+    }
+}
