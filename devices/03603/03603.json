@@ -95,7 +95,7 @@
 								"nom": "Who25-Action"
 							},	
 							"unit": "1",
-							"where": "Multicast"
+							"where": "Broadcast"
                         },
 						"display": {
 							"generic_type": "MODE_SET_STATE"
@@ -146,7 +146,7 @@
 								"nom": "Who25-Action"
 							},	
 							"unit": "2",
-							"where": "Multicast"
+							"where": "Broadcast"
                         },
 						"display": {
 							"generic_type": "MODE_SET_STATE"
@@ -197,7 +197,7 @@
 								"nom": "Who14-OVERRIDE_FOR_TIME"
 							},	
 							"unit": "3",
-							"where": "Multicast"
+							"where": "Broadcast"
                         },
 						"display": {
 							"generic_type": "LIGHT_SLIDER"
