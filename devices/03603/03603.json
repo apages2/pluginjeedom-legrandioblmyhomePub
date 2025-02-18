@@ -189,13 +189,15 @@
                         "type": "action",
 						"subtype": "slider",
                         "isVisible": 1,
-						"logicalId": "*14*0###slider#*#WHERE##IDUNIT##MEDIA###",
+						"logicalId": "*14*0##slider#*#WHERE##IDUNIT###",
 						"configuration": {
 							"whatdim": {
 								"what": "0",
 								"dim": "NULL",
 								"nom": "Who14-OVERRIDE_FOR_TIME"
 							},	
+							"minValue": 0,
+							"maxValue": 4500,
 							"unit": "3",
 							"where": "Broadcast"
                         },
