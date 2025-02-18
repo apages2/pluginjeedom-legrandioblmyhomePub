@@ -1,6 +1,7 @@
 {
     "03603": {
         "name": "Commande sécurité Vent / Soleil",
+	"techno": "IOBL",
 		"configuration": {
                             "version": "1.0",
 							"update": "Ajout du statut numérique",
