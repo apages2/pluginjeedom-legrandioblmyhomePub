@@ -59,9 +59,9 @@ Il est aussi possible de supprimer un equipement esclave en cliquant sur le "-" 
 ![configuration01](../images/ioblmyhome6.png)
 
 
-Liste des modules connus
+Liste des références comaptible avec le plugin
 ===
-L'ensemble des modules prise en charge à date par le plugin est visible dans le menu deroulant des templates
+L'ensemble des références prisent en charge à date par le plugin est visible dans le menu deroulant des templates
 
 Ajouter un Equipement
 ===
