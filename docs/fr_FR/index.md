@@ -70,7 +70,7 @@ La plupart des équipements sont rajoutés dans le plugin LegrandIoblMyhome dès
 
 Une fois l'équipement créé dans le plugin, deux solutions s'offrent à vous. 
 
-Soit l'équipêment existe dans le menu déroulant Template et là il suffit de le choisir (si le plugin ne l'a pas déja fait pour vous), puis de faire sauvegarder pour que les commandes soit automatiquement ajoutées.
+Soit l'équipement existe dans le menu déroulant Template et là il suffit de le choisir (si le plugin ne l'a pas déja fait pour vous), puis de faire sauvegarder pour que les commandes soit automatiquement ajoutées.
 
 Soit le module n'existe pas (encore) dans le plugin et alors il vous faudra créer les commandes une à une.
 
@@ -78,7 +78,7 @@ Les commandes info sont nécessaires pour récupérer l'état de l'équipement. 
 
 Les commandes actions permettent d'effectuer des actions sur l’équipement. En fonction de la catégorie de l'équipement, vous aurez différents choix.
 
-Les trames Legrand s'orientent autour de 3 variables et sont sous la forme (pour une trame de type BUS-COMMAND) *WHO*WHAT*WHERE##
+Les trames Legrand s'orientent autour de 3 variables et sont sous la forme (pour une trame de type BUS-COMMAND) *WHO *WHAT *WHERE##
 
 Le WHO correspond à la catégorie (lumière, automatisme, etc…). Si dans la trame brute vous saisissez \#WHO\#, celle-ci sera remplacée par l'ID de la catégorie de l’équipement.
 
