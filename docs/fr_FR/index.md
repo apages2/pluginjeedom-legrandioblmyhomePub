@@ -14,7 +14,7 @@ Pour les utilisateurs des anciens plugins (BOXIO ou MyHome), il est possible d'i
 
 ![configuration01](../images/ioblmyhome2.png)
 
-Dans le cadre d'une nouvelle utilisation, ce reporter à la section ci-dessous : ajout d'équipements.
+Dans le cadre d'une nouvelle utilisation, ce reporter à la section ci-dessous : Ajouter un équipement.
 
 Une fois les équipements importés ou créés, nous trouvons dans le menu principal l'ensemble de nos équipements, classés par type de protocole.
 
