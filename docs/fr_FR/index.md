@@ -78,7 +78,7 @@ Les commandes info sont nécessaires pour récupérer l'état de l'équipement. 
 
 Les commandes actions permettent d'effectuer des actions sur l’équipement. En fonction de la catégorie de l'équipement, vous aurez différents choix.
 
-Les trames Legrand s'orientent autour de 3 variables et sont sous la forme (pour une trame de type BUS-COMMAND) *WHO *WHAT *WHERE##
+Les trames Legrand s'orientent autour de 3 variables et sont sous la forme (pour une trame de type BUS-COMMAND) \*WHO\*WHAT\*WHERE##
 
 Le WHO correspond à la catégorie (lumière, automatisme, etc…). Si dans la trame brute vous saisissez \#WHO\#, celle-ci sera remplacée par l'ID de la catégorie de l’équipement.
 
@@ -88,7 +88,7 @@ Enfin, le WHERE correspond à la concaténation du mode de communication (unicas
 
 En gros, cela donne \*\#WHO\#\*\#WHAT\#*\#WHERE\#\#IDUNIT\###
 
-En dehors de ces variables, vous pouvez saisir la trame brute directement, par exemple : \*2*2*\#12131413##
+En dehors de ces variables, vous pouvez saisir la trame brute directement, par exemple : \*2\*2*\#12131413##
 
 Pour connaitre tous les types de trames, valeur WHO, WHAT, WHERE, les types de communication ou les codes media, vous pouvez vous reporter au document Legrand : Open-Nitoo Specifications 
 
@@ -119,4 +119,4 @@ Cela veut dire que le deamon est démarré mais que Jeedom n'arrive pas à le st
 Mes équipements ne sont pas vus
 -------------------------------
 
-Assurez-vous d'avoir bien coché cliqué sur le bouton inclusion, vérifiez que le deamon est bien démarré. Vous pouvez aussi le redémarrer en debug pour voir s'il reçoit bien les messages de vos équipements
+Assurez-vous d'avoir bien cliqué sur le bouton inclusion, vérifiez que le deamon est bien démarré. Vous pouvez aussi le redémarrer en debug pour voir s'il reçoit bien les messages de vos équipements
