@@ -6,7 +6,7 @@ Configuration
 ===
 Le plugin permet de dialoguer avec l'ensemble des périphériques In One By Legrand que ce soit en CPL, Radiofréquence ou Infrarouge (pour ces deux derniers, il est nécessaire d'avoir un bridge CPL/IR ou CPL/RF) ou en radio avec le protocol MyHome
 
-Après l'avoir téléchargé sur le Market, il sera nécessaire de configurer le port sur lequel est connecté le module USB/CPL, ainsi que la vitesse du port. En général : /dev/ttyACM0:115200. Une liste déroulante propose les ports USB actifs. Le port de socket interne : 55002 est le port par défaut utilisé par le daemon Boxio. Il vaut mieux éviter de le changer sans connaitre le fonctionnement du daemon.
+Après l'avoir téléchargé le plugin via le Market, il sera nécessaire de configurer le plugin. Dans la plupart des cas, les paramètres proposés permettent de faire fonctionner le plugin (cf screenshoot ci-dessous). La seule chose à faire est d'activer le/les protocoles que vous souhaitez utiliser. Le changement des paramètres doit être fait en connaissance de cause sans quoi le plugin pourrait ne plus fonctionner
 
 ![configuration01](../images/boxio1.png)
 
