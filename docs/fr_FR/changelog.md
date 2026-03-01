@@ -1,3 +1,12 @@
+### V2.002 du 24/01/2026
+-   Correction d'un problème sur la creation auto d'equipement myhome
+
+### V2.001 du 18/02/2025
+-   Correction d'un probleme de mise a jour des status sur shutter
+-   Ajout des templates 03612 et 03603
+-   Configuration des valeurs par defaut de la config du plugin
+-   Modification de l'interpretation de la valeur slider pour autre chose que des lumières
+
 ### V2.000 du 19/12/2023
 -   Nouveau plugin avec fusion d'IOBL et Myhome
 
