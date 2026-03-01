@@ -41,14 +41,14 @@ Globalement, les commandes sont automatiquement remplies si on choisit le bon te
 Enfin l'onglet Equipements Pilotés est utilisé dans le protocole Iobl et reprend le mode de fonctionnement natif aux modules Legrand des Scenario. Dans ces équipements, il est possible d'associer plusieurs équipements entre eux et ainsi commander plusieurs équipements depuis un seul. Par exemple, un interrupteur de volet pilote l'ensemble des volets d'une zone ou une commande générale, permet d'eteindre toute les lumières.
 Cet onglet reprend ce concept. Il est possible de récupérer les scenario deja en mémoire dans le module, via le bouton Mettre à jour, mais il est aussi possible de rajouter un équipement piloté manuellement. Pour cela il faut un peu connaitre le fonctionnement du module:
 
-le premier Unit permet de renseigner l'ID de la commande qui servira de commande principal. ID et l'Unit Listen sert a renseigner la module et la commande esclave. La fonction est une notion legrand et peut etre par exemple :
+le premier Unit permet de renseigner l'ID de la commande qui servira de commande principal. ID et l'Unit Listen sert a renseigner l'équipement et la commande esclave. La fonction est une notion legrand et peut etre par exemple :
 
 Pour un bouton de volet
 ===
 -    110 : MOVE_UP
 -    111 : MOVE_DOWN
 -    112 : STOP
--    
+  
 Pour un interrupteur de lumière
 ===
 -    101 : ON
