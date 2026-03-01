@@ -148,8 +148,3 @@
 -   Version initiale
 
 ### ToDo
--   Remise a 0 du status au bout d'1 minutes quand Command=ACTION
--   log/debug
--   jeelink
--   Mise a jour doc
--   interpretation des trames d'ack
