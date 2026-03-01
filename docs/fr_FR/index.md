@@ -22,7 +22,7 @@ Une fois les équipements importés ou créés, nous trouvons dans le menu princ
 
 si nous cliquons sur un équipement, nous trouvons 3 onglets : Equipement, Commandes et Equipements Pilotés.
 
-L'onglet Equipement permet de choisir le nom de l'équipement, sa destination dans l'arborescence de sa domotique, la catégorie du module (dans le jargon Legrand : WHO), la possibilité de rendre inactif le module dans Jeedom, ou encore de rendre visible ou invisible l'équipement dans l'interface, l'identifiant Legrand de l'équipement (son adresse en quelques sorte) et le type de média : pour IOBL, nous avons :CPL, IR ou RF, pour MyHome, il s'agit du media ZIGBEE et enfin le template utilisé ou a affecter à cet équipement. Le template permet de créer automatiquement les commandes necessaire à l'utilisation de ce module dans Jeedom
+L'onglet Equipement permet de choisir le nom de l'équipement, l'identifiant Legrand de l'équipement (son adresse en quelques sorte), la possibilité de rendre inactif le module dans Jeedom, ou encore de rendre visible ou invisible l'équipement dans l'interface, sa destination dans l'arborescence de sa domotique, la catégorie du module (dans le jargon Legrand : WHO), le type de média : pour IOBL, nous avons :CPL, IR ou RF, pour MyHome, il s'agit du media ZIGBEE et enfin le template utilisé ou a affecter à cet équipement. Le template permet de créer automatiquement les commandes necessaire à l'utilisation de ce module dans Jeedom
 
 ![configuration01](../images/ioblmyhome4.png)
 
