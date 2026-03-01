@@ -10,8 +10,6 @@ Après avoir téléchargé le plugin via le Market, il sera nécessaire de le co
 
 ![configuration01](../images/ioblmyhome1.png)
 
-Une fois configuré, on accède à la page du plugin LegrandIoblMyhome.
-
 Pour les utilisateurs des anciens plugins (IOBL ou MyHome), il est possible d'importer les équipements déja configurés dans ce nouveaux plugin. Pour cela, il suffit de se rendre dans la configuration du plugin et utiliser le bouton adéquat de la section Gestion avancée
 
 ![configuration01](../images/ioblmyhome2.png)
