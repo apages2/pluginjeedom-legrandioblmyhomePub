@@ -1,3 +1,6 @@
+### V2.003 du 01/03/2026
+-   Correction d'un bug sur les modules myhome lumiere sans variateur (Merci à Didier3L)
+
 ### V2.002 du 24/01/2026
 -   Correction d'un problème sur la creation auto d'equipement myhome
 
