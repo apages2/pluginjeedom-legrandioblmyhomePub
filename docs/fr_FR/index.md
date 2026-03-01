@@ -8,7 +8,7 @@ Le plugin permet de dialoguer avec l'ensemble des périphériques In One By Legr
 
 Après l'avoir téléchargé le plugin via le Market, il sera nécessaire de configurer le plugin. Dans la plupart des cas, les paramètres proposés permettent de faire fonctionner le plugin (cf screenshoot ci-dessous). La seule chose à faire est d'activer le/les protocoles que vous souhaitez utiliser. Le changement des paramètres doit être fait en connaissance de cause sans quoi le plugin pourrait ne plus fonctionner
 
-![configuration01](../images/boxio1.png)
+![configuration01](../images/ioblmyhome1.png)
 
 Une fois configuré, on accède à la page du plugin BOXIO.
 
